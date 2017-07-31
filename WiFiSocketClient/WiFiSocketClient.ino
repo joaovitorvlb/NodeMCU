@@ -3,8 +3,8 @@
 const char* ssid     = "IOT-2";
 const char* password = "mj110032";
 
-const char* host = "192.168.0.12";
-const int httpPort = 9765;
+const char* host = "192.168.1.101";
+const int httpPort = 500;
 // Use WiFiClient class to create TCP connections
 WiFiClient client;
 
