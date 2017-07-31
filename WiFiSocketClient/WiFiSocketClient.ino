@@ -1,9 +1,9 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "IOT-2";
-const char* password = "mj110032";
+const char* ssid     = "ssid";
+const char* password = "psk";
 
-const char* host = "192.168.1.101";
+const char* host = "ip_server";
 const int httpPort = 500;
 // Use WiFiClient class to create TCP connections
 WiFiClient client;
