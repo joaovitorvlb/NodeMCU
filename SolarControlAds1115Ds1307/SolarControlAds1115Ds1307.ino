@@ -75,7 +75,7 @@ void setup(void)
 
 void loop(void) 
 {
-  if(S3 == 0)
+  if(S1 == 0)
   {
     digitalWrite(RL1, HIGH);
   }
