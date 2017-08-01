@@ -3,12 +3,12 @@
 #include <Adafruit_ADS1015.h>
 #include "RTClib.h"
 
-const char* host = "192.168.1.112";
+const char* host = "ip_server";
 const int httpPort = 500;
 
 
-char ssid[] = "IOT-2";               // your network SSID (name) 
-char pass[] = "mj110032";            // your network password
+char ssid[] = "ssid";               // your network SSID (name) 
+char pass[] = "psk";                // your network password
 
 char c ; 
 
