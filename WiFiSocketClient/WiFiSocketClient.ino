@@ -56,7 +56,10 @@ void loop()
   {
     char c = client.read();
     Serial.print(c);
+<<<<<<< HEAD
     client.stop();
+=======
+>>>>>>> 65b06f0604472ee551d5f26e7a4e820c258d36cd
   }
   
   if (client.connected() == 0) 
@@ -68,7 +71,10 @@ void loop()
     }
     Serial.println();
     Serial.println("Conectado ao servidor");
+<<<<<<< HEAD
     client.print("oi");
+=======
+>>>>>>> 65b06f0604472ee551d5f26e7a4e820c258d36cd
   }
 }
 
